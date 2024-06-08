@@ -1,0 +1,32 @@
+.ourTeam{
+  padding: 12rem 0;
+}
+.ourTeam .container{
+  margin: auto;
+  width: 90%;
+}
+
+.ourTeam .container .title{
+  display: inline-block;
+  margin-bottom: 7rem;
+}
+
+.ourTeam .container .cards{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  align-content: center;
+  justify-content: space-between;
+}
+
+.ourTeam .container .cards .card{
+  width: 30rem;
+  text-align: center;
+}
+
+.ourTeam .container .cards .card img{
+  width: 100%;
+}
+
+.ourTeam .container .cards .card .desc{
+  font-weight: 700;
+}

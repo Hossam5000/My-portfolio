@@ -1,0 +1,157 @@
+                                                      /* Universal */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  transition: all 0.2s linear;
+}
+
+                                                           /* elements */
+html{
+  font-size: 10px;
+}
+
+body{
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3{
+  color: var(--black);
+}
+
+h1{
+  font-size: var(--font-lg);
+}
+
+h2{
+  font-size: var(--font-md);
+  text-transform: capitalize;
+}
+
+h3{
+  font-size: var(--font-sm);
+}
+
+p{
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+a{
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+                                                          /* Classes */
+.container{
+  margin: auto;
+  width: 82%;
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-jc-sb{
+  justify-content: space-between;
+}
+
+.flex-ai-c{
+  align-items: center;
+}
+
+.flex-jc-c{
+  justify-content: center;
+}
+
+.pad-y{
+  padding: 2rem 0;
+}
+
+div > img{
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+}
+
+.ds-none{
+  display: none;
+}
+
+.ds-blk{
+  display: block;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  background: var(--black);
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: var(--green);
+  letter-spacing: 0.1rem;
+}
+
+.sub-title{
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: var(--green);
+}
+
+.top-title{
+  margin: 1rem 0 2rem;
+  font-weight: bolder;
+}
+
+.top-title .title{
+  text-transform: uppercase;
+}
+
+*[class ^= "icon"] i,
+*[class ^= "icon"] a{
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  background: #eee;
+  color: var(--black);
+  line-height: 4.5rem;
+}
+
+*[class ^= "icon"] i:hover,
+*[class ^= "icon"] a:hover{
+  background: var(--green);
+  color: #fff;
+  cursor: pointer;
+}
+
+.stars,
+.price{
+  color: var(--green);
+}
+
+.price span{
+  margin-right: 1rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}

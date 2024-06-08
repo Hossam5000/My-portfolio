@@ -1,0 +1,23 @@
+.goals-bottom .icon{
+  padding: 2rem 3rem;
+  border-radius: 10rem 0.8rem 10rem 0.8rem;
+  font-size: 2rem;
+}
+
+.goals-bottom .icon:hover{
+  box-shadow: var(--boxShadow);
+  cursor: pointer;
+}
+
+.goals-bottom .icon-left{
+  flex-basis: 20%;
+  margin-right: 1rem;
+}
+
+.goals-bottom .icon-left img{
+  width: 100%;
+}
+
+.goals-bottom .icon-right{
+  flex-basis: 75%;
+}

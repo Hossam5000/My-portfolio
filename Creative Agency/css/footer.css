@@ -1,0 +1,30 @@
+.footer{
+  padding: 2rem 0;
+  background: #1c1d21;
+  color: #fff;
+}
+
+.footer-content .links{
+  margin: 2rem 0;
+}
+
+.footer-content .links a{
+  display: inline-block;
+
+  width: 5rem;
+  height: 5rem;
+
+  margin-right: 1.8rem;
+  border-radius: 50%;
+
+  background: #6195ff;
+}
+
+.footer-content .links a i{
+  line-height: 5rem;
+}
+
+.footer-content .desc{
+  margin-bottom: 0;
+  color: #999;
+}

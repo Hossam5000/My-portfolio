@@ -1,0 +1,40 @@
+.testimonail{
+  position: relative;
+  height: 35rem;
+  background: url('../images/background/background3.webp') center center fixed;
+  background-size: cover;
+}
+
+.testimonail .container{
+  width: 65%;
+}
+
+.testimonail-content{
+  height: 100%;
+}
+
+.testimonail-content-item{
+  width: 50%;
+  color: #fff;
+}
+
+.testimonail-content-item .top{
+  width: 45%;
+}
+
+.testimonail-content-item .top-img{
+  width: 8rem;
+}
+
+.testimonail-content-item .top-img img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.testimonail-content-item .top-info{
+  text-transform: capitalize;
+}
+
+.testimonail-content-item .top-info span{
+	color:#6195ff;
+}

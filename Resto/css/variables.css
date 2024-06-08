@@ -1,0 +1,17 @@
+/* colors */
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+/* fonts */
+
+:root{
+    --font-lg: 7rem;
+    --font-md: 3rem;
+    --font-sm: 2.5rem;
+    --font-xs: 1.5rem;
+}

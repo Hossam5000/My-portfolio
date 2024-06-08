@@ -1,0 +1,11 @@
+.footer{
+  height: 10rem;
+  background: #2A2C2B;
+  text-align: center;
+}
+
+.footer .desc{
+  margin: 0;
+  color: var(--grey);
+  line-height: 10rem;
+}

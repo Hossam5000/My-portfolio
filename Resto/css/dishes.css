@@ -1,0 +1,54 @@
+.dishes{
+  background: #eee;
+  padding: 2rem 0;
+}
+
+.dishes-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 1.5rem;
+}
+
+.dishes-content .dish{
+  position: relative;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+}
+
+.dishes-content .dish .icon{
+  position: absolute;
+}
+
+.dishes-content .dish .icon:first-of-type{
+  left: -25%;
+}
+
+.dishes-content .dish .icon:last-of-type{
+  right: -25%;
+}
+
+.dishes-content .dish:hover .icon:first-of-type{
+  left: 10%;
+}
+
+.dishes-content .dish:hover .icon:last-of-type{
+  right: 10%;
+}
+
+.dishes-content .dish img{
+  max-width: 22rem;
+  height: 17rem;
+  margin: 1rem 0;
+}
+
+.dishes-content .dish .title{
+  text-transform: capitalize;
+}
+
+.dishes-content .dish .btn{
+  font-weight: bolder;
+}
+

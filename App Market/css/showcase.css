@@ -1,0 +1,118 @@
+.showcase{
+  position: relative;
+  min-width: 90%;
+  height: 71rem;
+  padding-top: 5rem;
+  background: url("../img/png/Layer 1.png");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.showcase-content,
+.showcase-header{
+  position: relative;
+}
+                                         /* showcase-header */
+.showcase-header .nav{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+  z-index: 3;
+}
+
+.showcase-header .nav .icon{
+  font-size: 2.2rem;
+}
+
+.showcase-header .nav .icon span{
+  color: #0D13D7;
+}
+
+.showcase-header .nav ul li{
+  position: relative;
+  display: inline-block;
+  margin-left: 3.5rem;
+}
+
+.showcase-header .nav ul li::after{
+  content: '';
+  width: 0;
+  height: 0.4rem;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  border-radius: 10rem;
+  background: #0D13D7;
+  transition: all 0.3s ease-in-out;
+}
+
+.showcase-header .nav ul li.active::after,
+.showcase-header .nav ul li:not(:last-child):hover::after{
+  width: 100%;
+}
+
+.showcase-header .nav ul li a{
+  display: block;
+  text-transform: capitalize;
+}
+                                   /* showcase-content */
+.showcase-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase-content-holder,
+.showcase-content-phones{
+  flex: 1;
+  color: var(--whiteColor);
+}
+
+
+.showcase-content-holder .desc{
+  margin: 3rem 0;
+  font-size: 2rem;
+  color: var(--whiteColor);
+}
+
+.showcase-content-holder .btn-rounded{
+  position: relative;
+  padding-right: 4rem;
+  margin-right: 2rem;
+  overflow:clip;
+}
+
+.showcase-content-holder .btn-rounded-with-icon span{
+  top: -2rem;
+  height: 5rem;
+}
+
+.showcase-content-holder .btn-rounded-with-icon:hover span{
+  top: 1.5rem;
+}
+
+.showcase-content-holder .btn-rounded-with-icon span .fa-arrow-down{
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.showcase-content-holder .btns .btn .fa-arrow-right-long{
+  margin-left: 1rem;
+}
+
+.showcase-content-holder .btns .btn:hover .fa-arrow-right-long{
+  margin-left: 2rem;
+}
+
+.showcase-content-phones{
+  transform: scale(115%);
+  display: flex;
+}
+
+.showcase-content-phones .img:nth-child(2){
+  margin: 0 -6rem;
+  transform: scale(125%);
+}

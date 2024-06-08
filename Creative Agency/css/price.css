@@ -1,0 +1,48 @@
+.price-content-item{
+  width: 30%;
+  padding: 4rem 1rem;
+  border: 0.1rem solid #e8e8e8;
+
+  color: #999;
+}
+
+.price-content-item .title{
+  font-weight: 100;
+}
+
+.price-content-item .money{
+  width: 12rem;
+  height: 12rem;
+
+  border: 0.3rem solid #6195ff;
+  border-radius: 50%;
+  padding-top: 1rem;
+  margin: 2rem auto;
+}
+
+.price-content-item .money .title{
+  color: #000;
+
+  font-size: 5rem;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.price-content-item:hover.price-content-item .money .title{
+  color: #fff;
+}
+
+.price-content-item .money span{
+  display: block;
+  font-size: 1.5rem;
+}
+
+.price-content-item .list li{
+  margin-bottom: 1.5rem;
+}
+
+.price-content-item .link{
+  border: 0.2rem solid #6195ff;
+  padding: 0.5rem 3rem;
+  color: #6195ff;
+}

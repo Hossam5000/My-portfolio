@@ -1,0 +1,11 @@
+.magic{
+  background: #F6F8FA;
+}
+
+.magic .right-content{
+  width: 64%;
+}
+
+.magic .right-content .desc{
+  margin-top: 6.7rem;
+}

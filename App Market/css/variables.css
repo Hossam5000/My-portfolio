@@ -1,0 +1,11 @@
+:root{
+	
+/* colors */
+	--mainColor: #6662f9;
+	--greyColor: #707070;
+	--whiteColor: #fff;
+	--blackColor: #000;
+
+	/* shadows */
+	--boxShadow: 0rem 0.3rem 4rem rgba(0, 0, 0, 70%);
+}

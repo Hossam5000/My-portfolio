@@ -1,0 +1,37 @@
+.service{
+  width: 90%;
+  margin: auto;
+}
+
+.service-top{
+  margin-bottom: 5rem;
+}
+
+.service-bottom .card{
+  width: 29rem;
+  height: 34rem;
+  flex-basis: 30%;
+  padding: 5rem 3rem;
+  background: #F9F9FF;
+  border-radius: 1rem;
+  box-shadow:0 0.1rem 2rem rgba(0, 0, 0, 10%);
+}
+
+.service-bottom .card:hover{
+  box-shadow: 0rem 0.3rem 4rem rgba(0, 0, 0, 70%);
+  cursor: pointer;
+}
+
+.service-bottom .card img{
+  width: 14.5rem;
+}
+
+.service-bottom .card .desc{
+  font-size: 1.5rem;
+  text-align: left;
+  color: #6B6969;
+}
+
+.service-bottom .card .title{
+  text-transform: capitalize;
+}

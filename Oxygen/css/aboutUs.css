@@ -1,0 +1,11 @@
+.aboutUs{
+  background: #F6F8FA;
+}
+
+.aboutUs .left{
+  flex-basis: 35%;
+}
+
+.aboutUs .right{
+  flex-basis: 60%;
+}

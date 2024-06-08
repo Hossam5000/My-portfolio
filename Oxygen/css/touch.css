@@ -1,0 +1,47 @@
+.touch{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.touch .left{
+  padding:14.5rem 8.3rem 0 13.5rem;
+}
+
+.touch .left input,
+.touch .left textarea{
+  display: block;
+  width: 100%;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+  border: none;
+  border-bottom: 0.2rem solid #373A39;
+  outline: none;
+  font-size: 1.6rem;
+}
+
+.touch .left textarea{
+  height: 27rem;
+}
+
+.touch .left input[placeholder],
+.touch .left textarea[placeholder]{
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+}
+
+.touch .left button{
+  width: 23rem;
+  height: 4.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  background: var(--darkBlack);
+  color: #fff;
+}
+
+.touch .right img{
+  width: 100%;
+}

@@ -1,0 +1,30 @@
+.offer-content-item{
+  position: relative;
+  width: 30%;
+
+  padding: 4rem;
+  padding-left: 7rem;
+  margin-top: 3rem;
+  border: 0.1rem solid #e8e8e8;
+}
+
+.offer-content-item .title{
+  transition: color 0.5s;
+}
+
+.offer-content-item:hover .title{
+  color:#fff;
+}
+
+.offer-content-item .desc{
+  color: #999;
+}
+
+.offer-content-item i{
+  position: absolute;
+  top: 4.5rem;
+  left: 1rem;
+
+  color: var(--mainColor);
+  font-size: 3rem;
+}

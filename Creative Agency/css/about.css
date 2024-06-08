@@ -1,0 +1,29 @@
+.about-content-item{
+  width: 30%;
+
+  padding: 4rem;
+  border: 0.1rem solid #e8e8e8;
+}
+
+.about-content-item .link,
+.about-content-item i{
+  color:#6195ff;
+  text-transform: capitalize;
+}
+
+.about-content-item .title{
+  transition: 0.5s color;
+}
+
+.about-content-item:hover.about-content-item .title{
+  color:#fff;
+}
+
+.about-content-item i{
+	font-size: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+.about-content-item .desc{
+  color: #999;
+}

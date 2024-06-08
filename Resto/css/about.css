@@ -1,0 +1,51 @@
+.about-content{
+  text-align: left;
+}
+
+.about-content .img{
+  flex: 1 1 45rem;
+}
+
+.about-content .content{
+  flex: 1 1 45rem;
+}
+
+.about-content .content .title{
+  margin: 1rem 0;
+  font-size: 4rem;
+}
+
+.about-content .content .desc{
+  margin: 0.5rem 0;
+  font-size: var(--font-xs);
+  text-transform: capitalize;
+  line-height: 2;
+}
+
+.about-content .content .services{
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.about-content .content .services .service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 1 17rem;
+  padding: 1.5rem 1rem;
+  border: 0.1rem solid rgba(0,0,0, 0.2);
+  border-radius: 0.5rem;
+  background: #eee;
+}
+
+.about-content .content .services .service i{
+  font-size: var(--font-md);
+  color: var(--green);
+}
+
+.about-content .content .services .service span{
+  font-size: var(--font-xs);
+  text-transform: capitalize;
+  color: var(--black);
+}

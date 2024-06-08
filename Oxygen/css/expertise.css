@@ -1,0 +1,64 @@
+.expertise .container .left{
+  flex-basis: 40%;
+}
+
+.expertise .container .right{
+  flex-basis: 55%;
+}
+
+.expertise .skills{
+  margin-top: 10rem;
+}
+
+.expertise .skills .skill{
+  margin: 3rem 0;
+}
+
+.expertise .skills .skill-bar{
+  position: relative;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f0f0f0;
+}
+
+.expertise .skills .skill-bar-percent{
+  position: absolute;
+  height: 100%;
+  background: #1d1d1d;
+}
+
+.expertise .skills .skill:first-child .skill-bar-percent{
+  width: 90%;
+}
+
+.expertise .skills .skill:nth-of-type(2) .skill-bar-percent{
+  width: 80%;
+}
+
+.expertise .skills .skill:last-child .skill-bar-percent{
+  width: 85%;
+}
+
+.expertise .skills .skill-name{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.expertise .offers{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  margin-top: 10rem;
+}
+
+.expertise .offers .offer .icon{
+  margin-right: 3rem;
+}
+
+.expertise .offers .offer:nth-child(2) .icon{
+  margin-top: -0.5rem;
+}
+
+.expertise .offers .offer:last-child .icon{
+  margin-top: -1rem;
+}

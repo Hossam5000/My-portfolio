@@ -1,0 +1,55 @@
+.review-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.review-content .card{
+  padding: 2rem;
+  border: 0.1rem solid rgba(0,0,0,0.2);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.card-top{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.card-top .left{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-transform: capitalize;
+}
+
+.review .card-top .left .img{
+  width: 7rem;
+  height: 7rem;
+}
+
+.review .card-top .left .img img{
+  border-radius: 50%;
+}
+
+.card-top .left .title{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-top .left .stars{
+  font-size: 1.3rem;
+}
+
+.card-top .fa-quote-right{
+  font-size: 6rem;
+  color: #ccc;
+}
+
+.card .desc{
+  line-height: 1.8;
+}

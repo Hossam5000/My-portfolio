@@ -1,0 +1,60 @@
+.form-contact{
+  width: 80%;
+  margin: 4rem auto;
+}
+
+.form-contact-item{
+  color: #6195ff;
+}
+
+.form-contact-item .title{
+  margin: 2rem 0;
+  color: #000;
+}
+
+.form-contact-item i{
+  font-size: 3rem;
+}
+
+.form-data{
+  width: 60%;
+  margin: auto;
+}
+
+.form-data input,
+.form-data textarea{
+  width: 100%;
+
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 0.2rem solid #e8e8e8;
+
+  background: #f4f4f4;
+  color: #354052;
+}
+
+.form-data .flex-sb-center input{
+  width: 48%;
+}
+
+.form-data textarea{
+  min-width: 100%;
+  max-width: 100%;
+
+  min-height: 20rem;
+  max-height: 20rem;
+}
+
+
+.form-data .btn{
+  width: 25%;
+
+  padding: 1.3rem 2rem;
+  border: none;
+  border-radius: 0;
+
+  font-size: 1.5rem;
+  color: #fff;
+  cursor:pointer;
+}

@@ -1,0 +1,109 @@
+                                                         /* universal */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+  transition: all 0.3s linear;
+}
+
+html{
+	font-size: 10px;
+}
+
+body{
+	font-size: 1.6rem;
+	height: 150vh;
+}
+
+/* elements */
+ul{
+	list-style-type: none;
+}
+
+a{
+	display: inline-block;
+	color: var(--whiteColor);
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 4rem;
+	text-transform: capitalize;
+}
+
+h2{
+	font-size: 3rem;
+}
+
+p{
+	margin: 2rem 0;
+	font-size: 2rem;
+	color: var(--greyColor);
+	text-transform: capitalize;
+	line-height: 1.5;
+}
+
+/* Classes */
+.btn-rounded,
+.btn-rounded-with-icon{
+	background-color: var(--whiteColor);
+	padding: 1.5rem 3rem;
+	border-radius: 3rem;
+	color: var(--blackColor);
+}
+
+.btn-rounded:hover,
+.btn-rounded-with-icon:hover{
+	background-color: var(--mainColor);
+	color: var(--whiteColor);
+}
+
+.btn-rounded-with-icon{
+	position: relative;
+  padding-right: 4rem;
+  margin-right: 2rem;
+  overflow:clip;
+}
+
+.btn-rounded-with-icon span{
+	margin-left: 1rem;
+	position: absolute;
+}
+
+.img img{
+	width: 100%;
+}
+
+.center{
+	text-align: center;
+}
+
+.container{
+	width: 85%;
+	margin: auto;
+}
+
+.msg{
+	width: 45%;
+	margin:0 auto 5rem;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.pad-y{
+	padding: 10rem 0;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-jc-sb{
+	justify-content: space-between;
+}
+
+.flex-ai-c{
+	align-items: center;
+}

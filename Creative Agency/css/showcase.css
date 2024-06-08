@@ -1,0 +1,28 @@
+.showcase{
+	position: relative;
+	height: 100vh;
+
+	background: url('../images/background/background1.webp');
+	background-size: cover;
+	background-position: center top;
+}
+
+.showcase-content{
+  width: 60%;
+  color: #fff;
+}
+
+.showcase-content .title{
+  font-size: 5.5rem;
+  text-transform: uppercase;
+}
+
+.showcase-content .desc{
+  padding: 1rem 0;
+  letter-spacing: 0.1rem;
+}
+
+.showcase-content .btn.get{
+  background: #fff;
+  color:#000;
+}

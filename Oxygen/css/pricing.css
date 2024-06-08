@@ -1,0 +1,60 @@
+.pricing{
+  padding: 10rem 13.5rem;
+  background: #F6F8FA;
+}
+
+.pricing .plans{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 37rem));
+  justify-content: space-between;
+  gap: 3rem;
+  text-align: center;
+}
+
+.pricing .plans .plan{
+  padding: 2.4rem;
+  background: #fff;
+}
+
+.pricing .plans .plan .title{
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.pricing .plans .plan .price{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 5rem;
+  font-size: 2rem;
+}
+
+.pricing .plans .plan .price .dollar{
+  margin-top: -2rem;
+  margin-right: 1rem;
+  font-size: 4rem;
+}
+
+.pricing .plans .plan .price .amount{
+  font-size: 8rem;
+}
+
+.pricing .plans .plan .price .period{
+  margin-bottom: -4rem;
+}
+
+.pricing .plans .plan .list li{
+  text-transform: capitalize;
+}
+
+.pricing .plans .plan .list li:not(:last-child){
+  margin-bottom: 3rem;
+}
+
+.pricing .plans .plan .btn{
+  display: inline-block;
+  margin-top: 7rem;
+  color: var(--darkBlack);
+  font-weight: bolder;
+}

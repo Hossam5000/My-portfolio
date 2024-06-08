@@ -1,0 +1,87 @@
+.slider{
+  position: relative;
+}
+
+.slider .slide{
+  height: 60rem;
+  overflow: hidden;
+}
+
+.slider .slide:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #F6F8FA;
+  opacity: 0.5;
+}
+
+.slider .slide img{
+  width: 100%;
+}
+
+.slider-content{
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translate(-12%, -50%);
+  width: 40%;
+}
+
+.slider-content .title{
+  font-size: 4rem;
+}
+
+.slider-content .title:after{
+  display: none;
+}
+
+.slider-content .desc{
+  margin-bottom: 11.6rem;
+}
+
+.slider span.prev,
+.slider .next{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3.5rem;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.slider .prev{
+  left: 2.7%;
+}
+
+.slider .next{
+  right: 2.7%;
+}
+
+.slide .prev i,
+.slider .next i{
+  font-size: 100%;
+}
+
+.slider .dotBox{
+  width: fit-content;
+}
+
+.slider .dotBox .dot{
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 1.33rem;
+  border-radius: 50%;
+  background: var(--darkBlack);
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.slider .dotBox .dot.active,
+.slider .dotBox .dot:hover{
+  transform: scale(2);
+}

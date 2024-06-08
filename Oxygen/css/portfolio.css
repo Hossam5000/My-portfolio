@@ -1,0 +1,84 @@
+.portfolio-header{
+  width: 100%;
+  padding: 14rem 13rem 10rem 13.5rem;
+}
+
+.portfolio-header .nav li{
+  margin-left: 4rem;
+}
+
+.portfolio-header .nav li:hover:after{
+  width: 100%;
+}
+
+.portfolio-content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 2.2rem;
+  height: 89rem;
+}
+
+.portfolio-content .col{
+  display: grid;
+  gap: 2.2rem;
+}
+
+.portfolio-content .col:nth-child(1){
+  grid-template-rows: 55% 1fr;
+}
+
+.portfolio-content .col:nth-child(2){
+  grid-template-rows: repeat(3, 1fr);  
+}
+
+.portfolio-content .col:nth-child(3){
+  grid-template-rows: 41.2% 1fr;  
+}
+
+.portfolio-content .col:nth-child(4){
+  grid-template-rows: 1fr 58.7%;
+}
+
+.portfolio-content .col .card{
+  background: var(--grey);
+  cursor: pointer;
+}
+  
+.portfolio-content .col .card-content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--darkBlack);
+  border: 1rem solid var(--lightBlack);
+  visibility: hidden;
+  transition: all 0s linear;
+}
+
+.portfolio-content .col .card:hover .card-content{
+  visibility: visible;
+}
+
+.portfolio-content .col .card .card-content .title{
+  color: #fff;
+}
+
+.portfolio-content .col .card .card-content .desc{
+  color: var(--grey);
+  text-transform: uppercase;
+}
+
+.portfolio .btn{
+  display: block;
+  margin-top: 7.2rem;
+  height: 8rem;
+  line-height: 8rem;
+  word-spacing: 1rem;
+  font-weight: bolder;
+  background: var(--grey);
+  text-align: center;
+}

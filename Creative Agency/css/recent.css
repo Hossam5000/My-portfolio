@@ -1,0 +1,32 @@
+.recent{
+  background: #f9f9f9;
+}
+
+.recent-content-item{
+  width: 30%;
+  background: #fff;
+}
+
+.recent-content-item img{
+  width: 100%;
+}
+
+.recent-content-item .info{
+  padding: 2rem;
+}
+
+.recent-content-item .info i{
+  margin-left: 1rem;
+  color: #6195ff;
+}
+
+.recent-content-item .info .title{
+  margin: 2rem 0;
+}
+
+.recent-content-item .link{
+  color: #6195ff;
+  
+  font-weight: bold;
+  text-transform: capitalize;
+}

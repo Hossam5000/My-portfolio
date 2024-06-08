@@ -1,0 +1,56 @@
+.showcase{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/showcase.jpg") center bottom no-repeat;
+  background-size: cover;
+}
+
+.showcase-header{
+  padding: 2.6rem 5.2rem;
+}
+
+.showcase-header .icon{
+  width: 2.9%;
+}
+
+.showcase-header .nav ul li{
+  position: relative;
+  display: inline-block;
+  margin-left: 5rem;
+}
+
+.showcase-header .nav ul li a{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.showcase-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.showcase-content .title{
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.showcase-content .title:after{
+  display: none;
+}
+
+.showcase-content .desc{
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--yellow);
+}
+
+.showcase > img{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

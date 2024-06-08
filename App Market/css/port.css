@@ -1,0 +1,13 @@
+.port{
+  position: relative;
+  max-width: 100vw;
+  overflow: clip;
+}
+
+.port > .img{
+  position: absolute;
+  bottom: -36px;
+  right: -282px;
+  transform: rotate(180deg) scale(46%);
+  z-index: -1;
+}

@@ -1,0 +1,27 @@
+.numbers{
+  position: relative;
+
+  background: url('../images/background/background2.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+.numbers .container{
+  width: 70%;
+}
+
+.numbers-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+  color: #fff;
+}
+
+.numbers-content-item i{
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  color: #6195ff;
+}

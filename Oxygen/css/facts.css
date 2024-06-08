@@ -1,0 +1,48 @@
+.facts-top{
+  width: 50%;
+  padding: ;
+  margin: 13rem auto;
+  text-align: center;
+}
+
+.facts-top .desc{
+  font-family: 'Merriweather', serif;
+  line-height: 1.7;
+}
+
+.facts-top .desc:first-child{
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+.facts-top .desc:last-child{
+  color: #9E9E9E;
+}
+
+.facts .video{
+  width: 100%
+}
+
+.facts .video img{
+  width: 100%;
+}
+
+.facts-bottom{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(20%, 1fr));
+  justify-content: space-between;
+  align-content: center;
+  margin: 16.4rem 22.8rem 16.6rem;
+  font-weight: 700;
+  font-size: var(--font-md);
+  text-align: center;
+}
+
+.facts-bottom span{
+  color: var(--darkBlack);
+}
+
+.facts-bottom .desc{
+  text-transform: capitalize;
+  color: #00B2A0;
+}

@@ -1,0 +1,55 @@
+.contact{
+  padding: 10rem 0 6rem;
+  text-align: center;
+  background: #373A39;
+}
+
+.contact .logo{
+  position: relative;
+  width: 4.2rem;
+  margin: 0 auto 8rem;
+}
+
+.contact .logo:after{
+  content: '';
+  position: absolute;
+  bottom: -2.4rem;
+  left: -112%;
+  width: 15rem;
+  height: 0.2rem;
+  background: var(--yellow);
+}
+
+.contact .logo img{
+  width: 100%;
+}
+
+.contact .list{
+  margin: 5rem 0;
+}
+
+.contact .list li{
+  display: inline-block;
+  margin-right: 3.3rem;
+}
+
+.contact .list li:not(last-child){
+  margin-right: 3.3rem;
+}
+
+.contact .list li a{
+  display: block;
+  color: #fff;
+}
+
+.contact .desc{
+  margin: 6rem 0;
+  color: #f8f8f8;
+}
+
+.contact .up{
+  display: block;
+  margin-top: 7rem;
+  font-size: 2rem;
+  color: #fff;
+}

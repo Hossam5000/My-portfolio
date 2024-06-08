@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-size = 1.0, width = device-width">
+		<title>My Project</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/variables.css">
+		<link rel="stylesheet" href="css/master.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/search.css">
+		<link rel="stylesheet" href="css/home.css">
+		<link rel="stylesheet" href="css/dishes.css">
+		<link rel="stylesheet" href="css/about.css">
+		<link rel="stylesheet" href="css/menu.css">
+		<link rel="stylesheet" href="css/review.css">
+		<link rel="stylesheet" href="css/order.css">
+		<link rel="stylesheet" href="css/footer.css">
+		</head>
+	<body>
+		                                                          <!-- header -->
+		<header class="header">
+			<div class="container flex flex-jc-sb flex-ai-c">
+				<a href="#" class="logo">
+					<i class="fas fa-solid fa-utensils"></i>resto.
+				</a>
+
+				<nav class="nav">
+					<a href="#home" class="active">home</a>
+					<a href="#dishes">dishes</a>
+					<a href="#about">about</a>
+					<a href="#menu">menu</a>
+					<a href="#review">review</a>
+					<a href="#order">order</a>
+				</nav><!-- ./nav -->
+
+				<div class="icons">
+					<i class="fas fa-bars" id="bars"></i>
+					<i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+					<a href="#" class="fa-solid fa-heart"></a>
+					<a href="#" class="fa-solid fa-cart-shopping"></a>
+				</div> <!-- ./icons -->
+			</div> <!-- ./container -->
+		</header> <!-- ./header -->
+
+			                                                   <!-- search form -->
+			<section class="search flex flex-jc-c flex-ai-c">
+			<form class="form" action="index.html" method="post">
+				<i class="fas fa-times" id="cancelForm"></i>
+				<input type="text" name="" placeholder="search here...">
+				<label for=""><i class="fa fa-search"></i></label>
+			</form><!-- ./form -->
+		</section> <!-- ./search -->
+		
+                                                                 <!-- home -->
+		<section class="home pad-y" id="home">
+			<div class="container">
+				<div class="slider">
+
+                             <!-- slide-1 -->
+					<div class="slide flex flex-jc-sb flex-ai-c">
+						<div class="slide-content">
+							<span class = "sub-title">our special dish</span>
+							<h1 class="title">Spicy Noodles</h1>
+							<p class="desc">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sit Natus Dolor Cumque?</p>
+							<a href="#" class="btn">order now</a>
+						</div> <!-- ./slide-content -->
+
+						<div class="slide-img">
+							<img src="img/home-img-1.png" alt="img-1">
+						</div> <!-- ./slide-img -->
+					</div><!-- ./slide -->
+
+                             <!-- slide-2 -->
+					<div class="slide flex flex-jc-sb flex-ai-c">
+						<div class="slide-content">
+							<span class = "sub-title">our special dish</span>
+							<h1 class="title">Fried Chicken</h1>
+							<p class="desc">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sit Natus Dolor Cumque?</p>
+							<a href="#" class="btn">order now</a>
+						</div> <!-- ./slide-content -->
+
+						<div class="slide-img">
+							<img src="img/home-img-2.png" alt="img-2">
+						</div> <!-- ./slide-img -->
+					</div><!-- ./slide -->
+
+                             <!-- slide-3 -->
+					<div class="slide flex flex-jc-sb flex-ai-c">
+						<div class="slide-content">
+							<span class = "sub-title">our special dish</span>
+							<h1 class="title">Hot Pizza</h1>
+							<p class="desc">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sit Natus Dolor Cumque?</p>
+							<a href="#" class="btn">order now</a>
+						</div> <!-- ./slide-content -->
+
+						<div class="slide-img">
+							<img src="img/home-img-3.png" alt="img-3">
+						</div> <!-- ./slide-img -->
+					</div><!-- ./slide -->
+
+				</div> <!-- ./slider -->
+			</div> <!-- ./container -->
+		</section> <!-- ./home -->
+
+		                                                            <!-- dishes -->
+		<section class="dishes pad-y" id="dishes">
+		<div class="container">
+
+			<div class="top-title center">
+				<span class="sub-title">our dishes</span>
+				<h3 class="title">popular dishes</h3>
+			</div> <!-- ./dishes-top -->
+
+			<div class="dishes-content center">
+												<!-- dish-1 -->
+				<div class="dish center">
+					<span class = "icon"><i class="fa-solid fa-eye"></i></span>
+					<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					<img src="img/dish-1.png" alt="dish-1">
+					<h3 class="title">tasty food</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div> <!-- ./stars -->
+					<div class="price">
+						<span>$15.99</span>
+						<a href="#" class="btn">add to cart</a>
+					</div> <!-- ./price -->
+				</div><!-- ./dish -->
+
+												<!-- dish-2 -->
+				<div class="dish center">
+					<span class = "icon"><i class="fa-solid fa-eye"></i></span>
+					<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					<img src="img/dish-2.png" alt="dish-2">
+					<h3 class="title">tasty food</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div> <!-- ./stars -->
+					<div class="price">
+						<span>$15.99</span>
+						<a href="#" class="btn">add to cart</a>
+					</div> <!-- ./price -->
+				</div><!-- ./dish -->
+
+												<!-- dish-3 -->
+				<div class="dish center">
+					<span class = "icon"><i class="fa-solid fa-eye"></i></span>
+					<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					<img src="img/dish-3.png" alt="dish-3">
+					<h3 class="title">tasty food</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div> <!-- ./stars -->
+					<div class="price">
+						<span>$15.99</span>
+						<a href="#" class="btn">add to cart</a>
+					</div> <!-- ./price -->
+				</div><!-- ./dish -->
+
+
+												<!-- dish-4 -->
+				<div class="dish center">
+					<span class = "icon"><i class="fa-solid fa-eye"></i></span>
+					<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					<img src="img/dish-4.png" alt="dish-4">
+					<h3 class="title">tasty food</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div> <!-- ./stars -->
+					<div class="price">
+						<span>$15.99</span>
+						<a href="#" class="btn">add to cart</a>
+					</div> <!-- ./price -->
+				</div><!-- ./dish -->
+
+												<!-- dish-5 -->
+				<div class="dish center">
+					<span class = "icon"><i class="fa-solid fa-eye"></i></span>
+					<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					<img src="img/dish-5.png" alt="dish-5">
+					<h3 class="title">tasty food</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div> <!-- ./stars -->
+					<div class="price">
+						<span>$15.99</span>
+						<a href="#" class="btn">add to cart</a>
+					</div> <!-- ./price -->
+				</div><!-- ./dish -->
+
+												<!-- dish-6 -->
+				<div class="dish center">
+					<span class = "icon"><i class="fa-solid fa-eye"></i></span>
+					<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					<img src="img/dish-6.png" alt="dish-6">
+					<h3 class="title">tasty food</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div> <!-- ./stars -->
+					<div class="price">
+						<span>$15.99</span>
+						<a href="#" class="btn">add to cart</a>
+					</div> <!-- ./price -->
+				</div><!-- ./dish -->
+
+			</div> <!-- ./dishes-content -->
+
+		</div> <!-- ./container -->
+	</section> <!--./dishes-->
+
+	                                                              <!-- about -->
+	<section class="about pad-y" id="about">
+		<div class="container">
+
+			<div class="top-title center">
+				<span class="sub-title">about us</span>
+				<h3 class="title">why choose us?</h3>
+			</div> <!-- ./dishes-top -->
+			
+			<div class="about-content flex flex-jc-sb flex-ai-c">
+				<div class="img">
+					<img src="img/about-img.png" alt="about">
+				</div><!--./about-->
+
+				<div class="content">
+					<h2 class="title">best food in the country</h2>
+					<p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
+
+						<p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque deleniti iste alias, eum natus.</p>
+						<div class="services flex flex-jc-sb flex-ai-c">
+
+							<div class="service">
+								<i class="fa-solid fa-truck-fast"></i>
+								<span>free delivery</span>
+							</div><!--./service-->
+							
+							<div class="service">
+								<i class="fa-sharp fa-solid fa-dollar-sign"></i>
+								<span>easy payment</span>
+							</div><!--./service-->
+							
+							<div class="service">
+								<i class="fa-solid fa-headset"></i>
+								<span>24/7 service</span>
+							</div><!--./service-->
+						</div><!--./services-->
+
+						<a href="#" class="btn">learn more</a>
+				</div><!--./content-->
+			</div><!--about-content-->
+		</div><!--./container-->
+	</section><!--./about-->
+
+	                                                               <!-- menu -->
+	<section class="menu pad-y" id="menu">
+		<div class="container">
+			<div class="top-title center">
+				<span class="sub-title">about us</span>
+				<h3 class="title">why choose us?</h3>
+			</div><!--top-title-->
+
+			<div class="menu-content">
+				                         <!-- card-1 -->
+				<div class="card">
+					<div class="img">
+						<img src="img/menu-1.jpg" alt="menu-1">
+						<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					</div><!--./img-->
+					
+					<div class="card-content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div> <!-- ./stars -->
+	
+						<h3 class="title">delicious food</h3>
+						<p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+	
+						<div class="price">
+							<a href="#" class="btn">add to cart</a>
+							<span>$12.99</span>
+						</div> <!-- ./price -->
+					</div><!--card-content-->
+				</div><!--./card-->
+
+								                         <!-- card-2 -->
+				<div class="card">
+					<div class="img">
+						<img src="img/menu-2.jpg" alt="menu-2">
+						<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					</div><!--./img-->
+					
+					<div class="card-content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div> <!-- ./stars -->
+	
+						<h3 class="title">delicious food</h3>
+						<p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+	
+						<div class="price">
+							<a href="#" class="btn">add to cart</a>
+							<span>$12.99</span>
+						</div> <!-- ./price -->
+					</div><!--card-content-->
+				</div><!--./card-->
+                                        <!-- card-3 -->
+				<div class="card">
+					<div class="img">
+						<img src="img/menu-3.jpg" alt="menu-3">
+						<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					</div><!--./img-->
+					
+					<div class="card-content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div> <!-- ./stars -->
+	
+						<h3 class="title">delicious food</h3>
+						<p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+	
+						<div class="price">
+							<a href="#" class="btn">add to cart</a>
+<span>$12.99</span>
+						</div> <!-- ./price -->
+					</div><!--card-content-->
+				</div><!--./card-->
+
+								                         <!-- card-4 -->
+				<div class="card">
+					<div class="img">
+						<img src="img/menu-4.jpg" alt="menu-4">
+						<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					</div><!--./img-->
+					
+					<div class="card-content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div> <!-- ./stars -->
+	
+						<h3 class="title">delicious food</h3>
+						<p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+	
+						<div class="price">
+							<a href="#" class="btn">add to cart</a>
+<span>$12.99</span>
+						</div> <!-- ./price -->
+					</div><!--card-content-->
+				</div><!--./card-->
+                                       <!-- card-5 -->
+				<div class="card">
+					<div class="img">
+						<img src="img/menu-5.jpg" alt="menu-5">
+						<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					</div><!--./img-->
+					
+					<div class="card-content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div> <!-- ./stars -->
+	
+						<h3 class="title">delicious food</h3>
+						<p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+	
+						<div class="price">
+							<a href="#" class="btn">add to cart</a>
+<span>$12.99</span>
+						</div> <!-- ./price -->
+					</div><!--card-content-->
+				</div><!--./card-->
+
+								                         <!-- card-6 -->
+				<div class="card">
+					<div class="img">
+						<img src="img/menu-6.jpg" alt="menu-6">
+						<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					</div><!--./img-->
+					
+					<div class="card-content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div> <!-- ./stars -->
+	
+						<h3 class="title">delicious food</h3>
+						<p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+	
+						<div class="price">
+							<a href="#" class="btn">add to cart</a>
+<span>$12.99</span>
+						</div> <!-- ./price -->
+					</div><!--card-content-->
+				</div><!--./card-->
+                                      <!-- card-7 -->
+				<div class="card">
+					<div class="img">
+						<img src="img/menu-7.jpg" alt="menu-7">
+						<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					</div><!--./img-->
+					
+					<div class="card-content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div> <!-- ./stars -->
+	
+						<h3 class="title">delicious food</h3>
+						<p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+	
+						<div class="price">
+							<a href="#" class="btn">add to cart</a>
+<span>$12.99</span>
+						</div> <!-- ./price -->
+					</div><!--card-content-->
+				</div><!--./card-->
+
+								                         <!-- card-8 -->
+				<div class="card">
+					<div class="img">
+						<img src="img/menu-8.jpg" alt="menu-8">
+						<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					</div><!--./img-->
+					
+					<div class="card-content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div> <!-- ./stars -->
+	
+						<h3 class="title">delicious food</h3>
+						<p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+	
+						<div class="price">
+							<a href="#" class="btn">add to cart</a>
+<span>$12.99</span>
+						</div> <!-- ./price -->
+					</div><!--card-content-->
+				</div><!--./card-->
+                                         <!-- card-9 -->
+				<div class="card">
+					<div class="img">
+						<img src="img/menu-9.jpg" alt="menu-9">
+						<span class = "icon"><i class="fa-solid fa-heart"></i></span>
+					</div><!--./img-->
+					
+					<div class="card-content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div> <!-- ./stars -->
+	
+						<h3 class="title">delicious food</h3>
+						<p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+	
+						<div class="price">
+							<a href="#" class="btn">add to cart</a>
+<span>$12.99</span>
+						</div> <!-- ./price -->
+					</div><!--card-content-->
+				</div><!--./card-->
+
+			</div><!--./menu-content-->
+		</div><!--container-->
+	</section><!--./menu-->
+
+	                                                               <!-- review -->
+	<section class="review pad-y"  id="review">
+		<div class="container">
+			<div class="top-title center">
+				<span class="sub-title">about us</span>
+				<h3 class="title">why choose us?</h3>
+			</div><!--top-title-->
+	
+			<div class="review-content">
+				                                     <!-- card-1 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-1.png" alt="pic-1">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+				                                     <!-- card-2 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-2.png" alt="pic-2">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+				                                     <!-- card-3 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-3.png" alt="pic-3">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+
+								                             <!-- card-4 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-4.png" alt="pic-4">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+
+								                              <!-- card-1 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-1.png" alt="pic-1">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+				                                     <!-- card-2 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-2.png" alt="pic-2">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+				                                     <!-- card-3 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-3.png" alt="pic-3">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+
+								                            <!-- card-4 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-4.png" alt="pic-4">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+
+								                            <!-- card-1 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-1.png" alt="pic-1">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+				                                     <!-- card-2 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-2.png" alt="pic-2">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+				                                     <!-- card-3 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-3.png" alt="pic-3">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+
+								                              <!-- card-4 -->
+				<div class="card">
+					<div class="card-top">
+						<div class="left">
+							<div class="img">
+								<img src="img/pic-4.png" alt="pic-4">
+							</div>
+							<div class="name">
+								<h3 class="title">john doe</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div> <!-- ./stars -->
+						</div><!--./name-->
+						</div> <!--./left-->
+						<i class="fa-sharp fa-solid fa-quote-right"></i>
+				</div><!--./card-top-->
+	
+					<p class="desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.
+					</p>
+				</div><!--./card-->
+
+			</div><!--./review-content-->
+		</div><!--contianer-->
+	</section><!--review-->
+
+	                                                                <!-- order -->
+	<section class="order pad-y" id="order">
+		<div class="container">
+			<div class="top-title center">
+				<span class="sub-title">order now</span>
+				<h3 class="title">free and fast</h3>
+			</div><!--top-title-->
+
+			<form action="" class="form">
+				<div class="form-content">
+ 																								<!-- col-1 -->
+					<div class="col-1">
+						<div class="input">
+							<span>your name</span>
+							<input type="text" placeholder="enter your name">
+						</div><!--./input-->
+		
+						<div class="input">
+							<span>your order</span>
+							<input type="text" placeholder="enter your order">
+						</div><!--./input-->
+		
+						<div class="input">
+							<span>how much</span>
+							<input type="number" placeholder="0">
+						</div><!--./input-->
+		
+						<div class="input">
+							<span>your message</span>
+							<textarea name="" id="" cols="30" rows="10" placeholder="enter your message"></textarea>
+						</div><!--./input-->
+					</div><!--col-1-->
+
+ 																					     		<!-- col-2 -->
+					<div class="col-2">
+						<div class="input">
+							<span>your number</span>
+							<input type="text" placeholder="enter your number">
+						</div><!--./input-->
+		
+						<div class="input">
+							<span>additional food</span>
+							<input type="text" placeholder="extra with food">
+						</div><!--./input-->
+		
+						<div class="input">
+							<span>date and time</span>
+							<input type="datetime-local">
+						</div><!--./input-->
+		
+						<div class="input">
+							<span>your message</span>
+							<textarea name="" id="" cols="30" rows="10" placeholder="enter your message"></textarea>
+						</div><!--./input-->
+					</div><!--col-2-->
+
+				</div><!--./form-content-->
+				<a href="#" class="btn">order now</a>
+			</form><!--./form-->
+		</div><!--./container-->
+	</section><!--./order-->
+
+	<footer class="footer pad-y">
+		<div class="container">
+			<div class="box">
+							                                                <!-- list-1 -->
+			<ul class="list">
+				<li><h3 class="title">locations</h3></li>
+				<li><a href="#">india</a></li>
+				<li><a href="#">japan</a></li>
+				<li><a href="#">russia</a></li>
+				<li><a href="#">USA</a></li>
+				<li><a href="#">france</a></li>
+			</ul><!--./list-->
+
+						                                            <!-- list-2 -->
+			<ul class="list">
+				<li><h3 class="title">quick links</h3></li>
+				<li><a href="#">home</a></li>
+				<li><a href="#">dishes</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">menu</a></li>
+				<li><a href="#">review</a></li>
+				<li><a href="#">order</a></li>
+			</ul><!--./list-->
+
+									                                         <!-- list-3 -->
+			<ul class="list">
+				<li><h3 class="title">contact info</h3></li>
+				<li><a href="#">+123-456-7890</a></li>
+				<li><a href="#">+111-222-3333</a></li>
+				<li><a href="#">shaikhanas@gmail.com</a></li>
+				<li><a href="#">anasbhai@gmail.com</a></li>
+				<li><a href="#">mumbai, india - 400104</a></li>
+			</ul><!--./list-->
+
+									                                         <!-- list-4 -->
+			<ul class="list">
+				<li><h3 class="title">follow us</h3></li>
+				<li><a href="#">facebook</a></li>
+				<li><a href="#">twitter</a></li>
+				<li><a href="#">instagram</a></li>
+				<li><a href="#">linkedIn</a></li>
+			</ul><!--./list-->
+			</div><!--./box-->
+
+			<div class="credit">
+				copyright @ 2021 by 
+				<span>mr. web designer</span>
+			</div>
+		</div><!--./container-->
+	</footer>
+
+<script type="text/javascript" src="script/script.js"></script>
+	</body>
+</html>
