@@ -1,0 +1,13 @@
+/* NAVBAR */
+nav.navbar{
+    padding: 30px 0;
+}
+
+nav.navbar .get-in-touch img{
+    margin-right: 10px;
+}
+
+
+nav.navbar button.navbar-toggler{
+    border: 1px solid #fff;
+}

@@ -1,0 +1,37 @@
+/* MAIN */
+.main .container{
+    width: 584px;
+}
+
+.main .container .title-2,
+.main .container #title
+{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+.main .container #title{
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.main .desc{
+    margin: 35px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.main .my-btn{
+    background: rgb(102,93,205);
+    background: linear-gradient(160deg, rgba(102,93,205,1) 0%, rgba(95,164,230,1) 45%, rgba(210,171,103,1) 100%); 
+    border-radius: 2px;
+}
+
+@media(min-width: 992px){
+.main .container .title-2,
+.main .container #title
+{
+    font-size: 76px;
+}
+}
