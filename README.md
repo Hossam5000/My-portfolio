@@ -5,7 +5,7 @@
 I'm a Web Developer and occasional UI/UX Designer who loves making high-quality websites and applications. I'm a college
 student and I also love Physics, and want to learn more about how the Universe works.
 
-### 👷 Check out what I'm currently working on
+### 👷🐱‍🏍 Check out what I'm currently working on
 
 - [three-em/3em](https://github.com/three-em/3em) - A blazingly fast, secure, reliable, multi-language execution machine for Smart Contracts.
 - [maximousblk/chart](https://github.com/maximousblk/chart) - Console ASCII line charts with no dependencies
